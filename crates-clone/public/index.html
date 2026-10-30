@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en" data-color-scheme="light">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>crates.io: Rust Package Registry — local clone</title>
+  <meta name="description" content="A local recreation of the crates.io landing page using its public source. Sample listings, not live registry data.">
+  <link rel="icon" href="assets/cargo.png"><link rel="stylesheet" href="base.css"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="header">
+  <div class="topbar">
+    <a href="./" class="brand"><img src="assets/cargo.png" alt="" width="38" height="38">crates.io</a>
+    <nav aria-label="Account"><label class="theme-label"><span aria-hidden="true">◐</span><span class="sr-only">Color scheme</span><select id="theme" aria-label="Color scheme"><option value="light">Light</option><option value="dark">Dark</option><option value="system">System</option></select></label><a class="login" href="https://crates.io/">♙ &nbsp; Log in with GitHub <span class="sr-only">on crates.io</span></a></nav>
+  </div>
+  <div class="hero"><h1>The Rust community’s crate registry</h1>
+    <form action="https://crates.io/search" role="search"><input id="search" name="q" type="search" placeholder="Type 'S' or '/' to search" aria-label="Search crates on crates.io" required><button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 6 6"/></svg></button></form>
+  </div>
+</header>
+<main id="main"><div class="inner width-limit">
+  <div class="hero-buttons"><a class="button" href="https://doc.rust-lang.org/cargo/getting-started/installation.html"><span aria-hidden="true">↧</span> Install Cargo</a><a class="button" href="https://doc.rust-lang.org/cargo/guide/"><span aria-hidden="true">⚑</span> Getting Started</a></div>
+  <div class="blurb"><div class="intro">Instantly publish your crates and install them. Use the API to interact and find out more information about available crates. Become a contributor and enhance the site with your work.</div><div class="stats"><div class="stat"><div><strong>---,---,---</strong><span>Downloads</span></div><span class="stat-icon" aria-hidden="true">☁</span></div><div class="stat"><div><strong>---,---</strong><span>Crates in stock</span></div><span class="stat-icon" aria-hidden="true">▣</span></div></div></div>
+  <p class="notice">Local preview · Sample listings from the project’s examples. Live counts unavailable. Search and links open crates.io.</p>
+  <div class="lists" id="lists"></div>
+  <noscript><p>Enable JavaScript to display the sample crate lists. Search and navigation remain available.</p></noscript>
+</div></main>
+<footer><div class="footer-inner width-limit">
+  <section><h2>Rust</h2><ul><li><a href="https://www.rust-lang.org/">rust-lang.org</a></li><li><a href="https://foundation.rust-lang.org/">Rust Foundation</a></li><li><a href="https://www.rust-lang.org/governance/teams/dev-tools#team-crates-io">The crates.io team</a></li></ul></section>
+  <section><h2>Get Help</h2><ul><li><a href="https://doc.rust-lang.org/cargo/">The Cargo Book</a></li><li><a href="https://crates.io/support">Support</a></li><li><a href="https://status.crates.io/">System Status</a></li><li><a href="https://github.com/rust-lang/crates.io/issues/new/choose">Report a bug</a></li></ul></section>
+  <section><h2>Policies</h2><ul><li><a href="https://crates.io/policies">Usage Policy</a></li><li><a href="https://crates.io/policies/security">Security</a></li><li><a href="https://foundation.rust-lang.org/policies/privacy-policy/">Privacy Policy</a></li><li><a href="https://www.rust-lang.org/policies/code-of-conduct">Code of Conduct</a></li><li><a href="https://crates.io/data-access">Data Access</a></li><li><a href="https://crates.io/docs/rate-limits">Rate Limits</a></li></ul></section>
+  <section><h2>Social</h2><ul><li><a href="https://github.com/rust-lang/crates.io/">rust-lang/crates.io</a></li><li><a href="https://rust-lang.zulipchat.com/#streams/318791/t-crates-io">#t-crates-io</a></li><li><a href="https://twitter.com/cratesiostatus">@cratesiostatus</a></li></ul></section>
+</div></footer>
+<script src="app.js"></script>
+</body></html>
